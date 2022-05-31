@@ -6,16 +6,17 @@ body{
     justify-content: stretch;
 }
 
-*{
-    color:white;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 0 128px;
+    padding: 16px 128px;
     background-color: #1F2937;
     flex-grow: 1;
+    color: white;
+}
+
+.header-title{
+    padding: 16px 0px;
 }
 
 .hero-container{
@@ -63,12 +64,20 @@ body{
     height: auto;
 }
 
+.info-container{
+    padding: 0 128px;
+    background-color: white;
+}
+
 .info-image{
     width: 128px;
-    height: auto;
+    height: 128px;
     border-radius: 8px;
 }
 
+.info-container-sub{
+    display: flex;
+}
 
 
 
