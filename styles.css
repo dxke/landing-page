@@ -22,7 +22,7 @@ body{
 .hero-container{
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 0 128px;
+    padding: 0 128px 64px 128px;
     margin-top: 70px;
     display: flex;
     flex-direction: row;
@@ -65,7 +65,7 @@ body{
 }
 
 .info-container{
-    padding: 0 128px;
+    padding: 64px 128px;
     background-color: white;
 }
 
