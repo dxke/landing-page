@@ -58,7 +58,16 @@ body{
     margin: 8px 0px;
 }
 
+.hero-image{
+    width: 250px;
+    height: auto;
+}
 
+.info-image{
+    width: 128px;
+    height: auto;
+    border-radius: 8px;
+}
 
 
 
