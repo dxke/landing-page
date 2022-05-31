@@ -50,6 +50,7 @@ body{
     flex-grow: 0;
     font-size: 16px;
     background-color: #3882F6;
+    color: white;
     border: none;
     text-align: center;
     border-radius: 4px;
@@ -67,6 +68,22 @@ body{
 .info-container{
     padding: 64px 128px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-title{
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.text-for-image{
+    width: 160px;
 }
 
 .info-image{
@@ -77,6 +94,7 @@ body{
 
 .info-container-sub{
     display: flex;
+    gap: 64px;
 }
 
 
